@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-
-const PrimerApp = () => {
-    const saludo = "Hola Mundo";
+//Para recibir elementos del index hay que recibir haciendo desestructuring del elemento
+// Se le pude colocar un default param
+const PrimerApp = ({ saludo = "Hola mundo" }) => {
     return (
         <Fragment>
             <h1>{saludo}</h1>

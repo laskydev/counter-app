@@ -3,8 +3,7 @@ import ReactDOM from "react-dom";
 import PrimerApp from "./PrimeraApp";
 import "./index.css";
 
-const saludo = <h1>Hola mundo</h1>;
-
 const divRoot = document.querySelector("#root");
 
-ReactDOM.render(<PrimerApp />, divRoot);
+// Para enviar elementos del index a los componentes se hace de la siguiente manera:
+ReactDOM.render(<PrimerApp saludo="Hola, soy Goku" />, divRoot);

@@ -6,4 +6,4 @@ import "./index.css";
 const divRoot = document.querySelector("#root");
 
 // Para enviar elementos del index a los componentes se hace de la siguiente manera:
-ReactDOM.render(<PrimerApp saludo="Hola, soy Goku" />, divRoot);
+ReactDOM.render(<PrimerApp saludo="Hola mundo" />, divRoot);

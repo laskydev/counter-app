@@ -1,12 +1,11 @@
 import React, { Fragment } from "react";
 
-//Un componente debe retornar 1 solo contenedor y entre parentesis
 const PrimerApp = () => {
+    const saludo = "Hola Mundo";
     return (
-        //Se puede retornar un fragment o un div o no colocar nada
         <Fragment>
-            <h1>Hola Mundo</h1>
-            <p>Mi primera aplicación</p>
+            <h1>{saludo}</h1>
+            {/* <pre>{JSON.stringify(saludo, null, 3)}</pre> */}
         </Fragment>
     );
 };
